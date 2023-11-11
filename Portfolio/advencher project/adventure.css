@@ -1,0 +1,595 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header start */
+
+.main {
+    width: 100%;
+    height: 650px;
+    box-sizing: border-box;
+    background-image: url(./img/adventure/adventure-breadcrumb.jpg);
+    background-color: rgba(0, 0, 0, 0.141);
+    background-blend-mode: hue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav {
+    width: 100%;
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18;
+}
+
+.nav a:hover {
+    color: rgb(241, 166, 28);
+    transition: all 1s;
+}
+.nav .three .submenu{
+    width: 180px;
+    height: 190px;
+    background: white;
+    border: orange;
+    border-top: 3px solid orange;
+    position: absolute;
+    display: none;
+ 
+    
+}
+.nav .three .submenu li{
+    width: 180px;
+    height: 37px;
+    list-style: none;
+    border:1px solid orange ;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    
+    
+}
+.nav .three .submenu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    padding-left: 10px;
+   
+}
+.nav .three .submenu li a:hover{
+    color: orange;
+}
+.nav .three:hover .submenu{
+    display: block;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    height: 150px;
+    justify-content: start;
+    padding-right: 980px;
+    padding-left: 30px;
+}
+
+.icon {
+    font-size: 24px;
+    word-spacing: 10px;
+}
+.con{
+    margin-top: 50px;
+}
+.con h1{
+    padding-left: 780px;
+    font-size: 70px;
+}
+
+.con h2{
+    margin-top: 20px;
+    padding-left:880px ;
+    font-size: 40px;
+}
+.one{
+    display: flex;
+}
+.one img{
+    width: 400px;
+    height: 400px;
+
+}
+/* header finish */
+
+/* section one */
+
+.thril{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    background: url(./img/adventure/adventure-pine-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.make{
+    display: flex;
+    justify-content: center;
+}
+.since{
+    width: 700px;
+
+}
+.since h2{
+    font-size: 50px;
+    font-family:poppins ;
+    font-weight: bolder;
+}
+.since p{
+    font-size:25px ;
+    margin-top: 50px;
+    color: rgb(100, 100, 100);
+    font-weight: lighter;
+}
+.since img{
+    width: 650px;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.hill{
+    width: 400px;
+    height: auto;
+    margin-left: 100px;
+}
+.hill img{
+    width: 550px;
+    height: 700px;
+}
+.forall{
+    background: url(./img/adventure/tab-bg.jpg);
+    background-attachment: fixed;
+}
+.engage{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(184 205 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.rk{
+    width: 400px;
+    height: 100px;
+    border: 1px solid white;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    
+}
+.rk h2{
+    font-size: 35px;
+    font-family: poppins;
+    text-align: center;
+    padding-top: 20px;
+}
+.rk a{
+    text-decoration: none;
+    color: black;
+}
+.rk h2:hover{
+    color: rgb(223, 147, 8);
+}
+
+.kids{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+}
+.boy{
+    width: 900px;
+    height: auto;
+}
+.boy h2{
+    font-size: 40px;
+    font-family:  sans-serif;
+    margin-top: 20px;
+}
+.boy p{
+    font-size: 25px;
+    margin-top: 40px;
+}
+.boy h3{
+    font-size: 35px;
+    font-family:Architects Daughter ;
+    color:rgb(15, 227, 227) ;
+}
+.boy ol{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.boy li{
+    line-height: 45px;
+    font-size: 25px;
+    font-family: poppins;
+    color: rgb(88, 88, 88);
+}
+.girl img{
+    width: 700px;
+    height: 600px;
+}
+
+.attech {
+    margin-top: 20px;
+    width: 100%;
+    height: 627px;
+    background: url("./img/adventure/adventure-parallax.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+}
+.edition{
+    padding-top : 200px;
+    text-align: center;
+    
+}
+.edition h3{
+    font-size: 30px;
+    font-family:Architects Daughter ;
+    color:rgb(15, 227, 227) ;
+    
+}
+.edition h2{
+    font-size: 50px;
+    color: white;
+}
+.edition h4{
+    font-size: 25px;
+    color: white;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+.edition button{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 40px;
+    border: none;
+}
+.edition button:hover{
+    background-color: orange;
+    transition: all .5s linear;
+}
+
+.line img{
+    width: 100%;
+}
+
+.anything{
+    width: 100%;
+    height: 600px;
+    margin-top:50px;
+    background: url(./img/adventure/faq-img.jpg);
+    background-position:start;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.anything h3{
+    text-align: center;
+    font-size: 30px;
+    font-family:Architects Daughter ;
+    color:rgb(15, 227, 227) ;
+}
+.anything h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: poppins;
+}
+.question{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.dry{
+    width: 800px;
+    height: 400px;
+    margin-top: 40px;
+}
+.dry h4{
+    font-size: 25px;
+    font-family: poppins;
+}
+
+.dry p{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: poppins;
+    color: rgb(97, 95, 95);
+}
+
+
+
+
+
+.intro {
+    width: 100%;
+    height: 700px;
+    background: url(./img/number-counter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+.footprint h3 {
+    color: rgb(15, 227, 227);
+    font-size: 40px;
+    font-family: Architects Daughter;
+
+}
+
+.footprint h2 {
+    font-size: 60px;
+    ;
+}
+
+.footprint {
+    margin-left: 200px;
+    padding-top: 180px;
+
+}
+
+.footprint p {
+    margin-top: 70px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.pen {
+    width: 200px;
+    height: 200px;
+
+    display: inline-flex;
+    border-radius: 50%;
+    gap: 50px;
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxmodel {
+    align-self: center;
+}
+
+.power h4 {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 30px;
+}
+
+.power h3 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.pen:hover {
+    background-color: orange;
+    transition: all .5s linear;
+}
+
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: 1300px;
+    background: url(./img/footer-bg.jpg);
+    margin-top:50px;
+}
+
+.web {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.web img{
+    width: 250px;
+    height: 200px;
+}
+.sweet {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.sweet h3 {
+    font-size: 30px;
+    font-family: Architects Daughter;
+    color: rgb(15, 227, 227);
+}
+
+.sweet h2 {
+    font-size: 50px;
+}
+
+.place {
+    width: 550px;
+    height: 70px;
+    background-color: white;
+    margin-left: 680px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.in input {
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    font-size: 25px;
+}
+.in input::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+.place i {
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.place i:hover{
+    color: orange;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    margin-top: 270px;
+    border-bottom: 2px dashed #304636;
+}
+
+.foot {
+    width: 200px;
+    height: 300px;
+    color: white;
+
+}
+
+.foot h2 {
+    font-size: 30px;
+}
+
+.foot-adv p {
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(239, 232, 232);
+}
+
+.foot-adv i {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.foot-adv i:hover {
+    color: orange;
+}
+
+.foot-use a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.foot-use a:hover {
+    color: orange;
+}
+
+.foot-use,
+.foot-sup {
+    width: 200px;
+}
+
+.foot-use {
+    margin-left: 20px;
+}
+
+.foot-use li,
+.foot-sup li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.foot-use ul,
+.foot-sup ul {
+    margin-top: 30px;
+
+}
+
+.foot-sup a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-sup a:hover {
+    color: orange;
+}
+
+.foot-reach {
+    width: 390px;
+    word-spacing: 7px;
+
+}
+
+.foot-reach h4 {
+    margin-top: 30PX;
+    font-size: 22px;
+    font-weight: lighter;
+
+}
+
+.foot-reach i {
+    font-size: 25px;
+}
+
+.copy {
+    display: inline-flex;
+}
+
+.copy h2 {
+    color: white;
+    margin-top: 25px;
+    margin-left: 170px;
+    font-weight: lighter;
+}
+
+.copy h3 a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+
+
+}
+
+.copy h3 {
+    margin-top: 25px;
+    margin-left: 600px;
+}
+
+.copy h3 a:hover {
+    color: orange;
+    transition: all .6s;
+}

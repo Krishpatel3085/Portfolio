@@ -1,0 +1,457 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* header */
+
+
+.main {
+    width: 100%;
+    height: 650px;
+    box-sizing: border-box;
+    background-image: url(./img/contect/contact-breadcrumb.jpg);
+    background-color: rgba(0, 0, 0, 0.141);
+    background-blend-mode: hue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav {
+    width: 100%;
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18;
+}
+
+.nav a:hover {
+    color: rgb(241, 166, 28);
+    transition: all 1s;
+}
+.nav .three .submenu{
+    width: 180px;
+    height: 190px;
+    background: white;
+    border: orange;
+    border-top: 3px solid orange;
+    position: absolute;
+    display: none;
+ 
+    
+}
+.nav .three .submenu li{
+    width: 180px;
+    height: 37px;
+    list-style: none;
+    border:1px solid orange ;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    
+    
+}
+.nav .three .submenu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    padding-left: 10px;
+   
+}
+.nav .three .submenu li a:hover{
+    color: orange;
+}
+.nav .three:hover .submenu{
+    display: block;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    height: 150px;
+    justify-content: start;
+    padding-right: 980px;
+    padding-left: 30px;
+}
+
+.icon {
+    font-size: 24px;
+    word-spacing: 10px;
+}
+.con{
+    margin-top: 50px;
+}
+.con h1{
+    padding-left: 780px;
+    font-size: 70px;
+}
+
+.con h2{
+    margin-top: 20px;
+    padding-left:880px ;
+    font-size: 40px;
+}
+.one{
+    display: flex;
+}
+.one img{
+    width: 400px;
+    height: 400px;
+
+}
+.mask img{
+    width: 99.99%;
+    margin-top: 300px;
+
+}
+/* header finish */
+
+.touch{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+   
+}
+
+.talk{
+    width: 600px;
+    height: 400px;
+    background: url(./img/contect/contact-pine-bg-1.jpg);
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.get h3{
+    font-size: 25px;
+    font-family:Architects Daughter ;
+    color:rgb(15, 227, 227) ;
+}
+.get h2{
+    font-size: 30px;
+    font-family: poppins;
+    margin-top: 20px;
+}
+.get p{
+    font-size: 22px;
+    color: rgb(162, 158, 158);
+}
+
+
+.info{
+    margin-top: 50px;
+}
+.info h2{
+    font-size: 30px;
+    font-family: poppins;
+}
+.info h4{
+    font-size: 22px;
+    margin-top: 15px;
+    font-weight: lighter;
+    color: rgb(162, 158, 158);
+}
+
+.kaila{
+    width: 700px;
+    height: 500px;
+    background: url(./img/contect/contact-pine-bg-2.jpg);
+    background-position: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.speed p{
+    margin-top: 100px;
+    font-size: 22px;
+    color: rgb(162, 158, 158);
+
+}
+
+.hours h2{
+    font-size: 30px;
+    font-family: poppins;
+    margin-top: 60px;
+}
+
+.hours h3{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.hours p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: poppins;
+    color: rgb(162, 158, 158);
+}
+.fifty{
+    font-weight: bold;
+    color: rgb(70, 69, 69);
+}
+.patel{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 50px;
+}
+.form{
+    width: 600px;
+    height: 700px;
+    border: 2px solid rgb(162, 158, 158);
+}
+
+.form h2{
+    font-size: 40px;
+    font-family: poppins;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.form input{
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-color: rgb(162, 158, 158);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+}
+.form input::placeholder{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.form textarea{
+    margin-top: 20px;
+    margin-left: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.form textarea::placeholder{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.form button{
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: black;
+    border: none;
+}
+.form button a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.form button:hover{
+    background-color: orange;
+    transition: all .9s linear;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    height: 1300px;
+    background: url(./img/footer-bg.jpg);
+    margin-top: 200px;
+}
+
+.web {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.web img{
+    width: 250px;
+    height: 200px;
+}
+.sweet {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.sweet h3 {
+    font-size: 30px;
+    font-family: Architects Daughter;
+    color: rgb(15, 227, 227);
+}
+
+.sweet h2 {
+    font-size: 50px;
+}
+
+.place {
+    width: 550px;
+    height: 70px;
+    background-color: white;
+    margin-left: 680px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.in input {
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    font-size: 25px;
+}
+.in input::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+.place i {
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.place i:hover{
+    color: orange;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    margin-top: 270px;
+    border-bottom: 2px dashed #304636;
+}
+
+.foot {
+    width: 200px;
+    height: 300px;
+    color: white;
+
+}
+
+.foot h2 {
+    font-size: 30px;
+}
+
+.foot-adv p {
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(239, 232, 232);
+}
+
+.foot-adv i {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.foot-adv i:hover {
+    color: orange;
+}
+
+.foot-use a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.foot-use a:hover {
+    color: orange;
+}
+
+.foot-use,
+.foot-sup {
+    width: 200px;
+}
+
+.foot-use {
+    margin-left: 20px;
+}
+
+.foot-use li,
+.foot-sup li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.foot-use ul,
+.foot-sup ul {
+    margin-top: 30px;
+
+}
+
+.foot-sup a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-sup a:hover {
+    color: orange;
+}
+
+.foot-reach {
+    width: 390px;
+    word-spacing: 7px;
+
+}
+
+.foot-reach h4 {
+    margin-top: 30PX;
+    font-size: 22px;
+    font-weight: lighter;
+
+}
+
+.foot-reach i {
+    font-size: 25px;
+}
+
+.copy {
+    display: inline-flex;
+}
+
+.copy h2 {
+    color: white;
+    margin-top: 25px;
+    margin-left: 170px;
+    font-weight: lighter;
+}
+
+.copy h3 a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+
+
+}
+
+.copy h3 {
+    margin-top: 25px;
+    margin-left: 600px;
+}
+
+.copy h3 a:hover {
+    color: orange;
+    transition: all .6s;
+}

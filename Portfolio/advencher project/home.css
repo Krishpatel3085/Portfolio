@@ -1,0 +1,691 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+/* header start */
+.main {
+    width: 100%;
+    height: 950px;
+    box-sizing: border-box;
+    background-image: url(./img/background.jpg);
+    background-color: rgba(255, 255, 255, 0.034);
+    background-blend-mode: hue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: static;
+    background-attachment: fixed;
+}
+
+.nav {
+    width: 100%;
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18;
+}
+
+.nav a:hover {
+    color: rgb(241, 166, 28);
+    transition: all 1s;
+}
+.nav .three .submenu{
+    width: 180px;
+    height: 190px;
+    background: white;
+    border: orange;
+    border-top: 3px solid orange;
+    position: absolute;
+    display: none;
+ 
+    
+}
+.nav .three .submenu li{
+    width: 180px;
+    height: 37px;
+    list-style: none;
+    border:1px solid orange ;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    
+    
+}
+.nav .three .submenu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    padding-left: 10px;
+   
+}
+.nav .three .submenu li a:hover{
+    color: orange;
+}
+.nav .three:hover .submenu{
+    display: block;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    height: 150px;
+    justify-content: start;
+    padding-right: 950px;
+    padding-left: 30px;
+}
+
+.icon {
+    font-size: 24px;
+    word-spacing: 10px;
+}
+
+
+.kk img {
+
+    width: 400px;
+    height: 300px;
+    padding-left: 750px;
+}
+
+.kk h1 {
+    color: white;
+    padding-left: 550px;
+    font-size: 120px;
+}
+
+.kk h3 {
+    padding-left: 800px;
+    color: white;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.kk button {
+    position: relative;
+    left: 45%;
+    font-size: 24px;
+    padding: 5px;
+    border: none;
+    bottom: 23%;
+    
+}
+
+.kk button:hover {
+    color: white;
+    background-color: rgb(241, 168, 32);
+    transition: all 1s;
+}
+.VIEW img{
+    width: 99.99%;
+    margin-top: 55PX;
+}
+/* header finish */
+
+.twoB {
+    width: 100%;
+    height: 600px;
+    padding-top: 50px;
+
+}
+
+.text h3 {
+    color: rgb(15, 227, 227);
+    font-size: 30px;
+    font-family: Architects Daughter;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.bad {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 90px;
+    background: url(./img/home-intro-bg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+
+}
+
+.track {
+    width: 320px;
+    height: 450px;
+}
+
+.track img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.track a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.track h4 {
+    font-size: 25px;
+}
+
+.track h6 {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.track button {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    position: relative;
+    margin-left: 100px;
+    font-size: 22px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.track button:hover {
+    color: white;
+    background-color: orange;
+    transition: all .3s linear;
+
+}
+
+.kd {
+    width: 100%;
+    height: 750px;
+    background: url(./img/home-mask-shape.png);
+    background-color: rgb(213, 225, 213);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 400px;
+    display: inline-table;
+    padding: 90px;
+
+}
+
+.box h2 {
+    font-size: 35px;
+    font-weight: 900;
+
+}
+
+.box p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.over img {
+    float: right;
+    height: 500px;
+    margin-top: 190PX;
+    margin-left: -50px;
+    transition: all .5S;
+
+}
+.dili{
+    margin-top: 190px;
+    height: 500px;
+    margin-left: -50px;
+    opacity: 0;
+    transition: .5s;
+    background-color:orange;
+}
+.over:hover .dili{
+    opacity: 0.5;
+} 
+
+.over img:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.ss {
+    width: 100%;
+    height: 900px;
+    margin-top: 30px;
+}
+
+.ss h2 {
+    font-family: Architects Daughter;
+    color: rgb(15, 227, 227);
+    text-align: center;
+    font-size: 30px;
+}
+
+.ss h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.aa {
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    margin-top: 90px;
+
+}
+
+.aa img {
+
+    width: 300px;
+    height: 300px;
+}
+
+.aa-One,
+.aa-two,
+.aa-three,
+.aa-four {
+    width: 300px;
+    height: 450px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 40px;
+}
+
+.aa h3 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.aa h4 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.aa h6 {
+    font-weight: lighter;
+    font-size: 20px
+}
+
+
+.aa a {
+    text-decoration: none;
+    color: black;
+}
+
+.aa a:hover {
+    color: orange;
+}
+
+.product:hover {
+    transform: scale(0.9);
+    transition: all 0.5s linear;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-color: orange;
+}
+
+.vv button {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    position: relative;
+    /* margin-left: 100px; */
+    font-size: 22px;
+    /* margin-top: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    left: 40%;
+    top: 80px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+.vv a {
+    text-decoration: none;
+}
+
+.vv button:hover {
+    background-color: orange;
+    color: white;
+    transition: all .5s linear;
+}
+
+.mm {
+    width: 100%;
+    height: 900px;
+    background: url(./img/activites-pine-bg.jpg);
+    background-repeat: no-repeat;
+
+    background-position: center;
+}
+
+.pc h3 {
+    font-family: Architects Daughter;
+    text-align: center;
+    color: rgb(15, 227, 227);
+    font-size: 30px;
+}
+
+.pc h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.explor {
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.ky img {
+    width: 400px;
+    height: 500px;
+}
+
+.ky {
+    width: 400px;
+    height: 650px;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+.ky h3 {
+    font-size: 25px;
+    margin: 40px 0px 10px 20px;
+}
+
+.ky h4 {
+    font-size: 23px;
+    margin: 0px 0px 10px 20px;
+    font-weight: lighter;
+}
+
+.intro {
+    width: 100%;
+    height: 700px;
+    background: url(./img/number-counter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    gap: 70px;
+}
+
+.footprint h3 {
+    color: rgb(15, 227, 227);
+    font-size: 40px;
+    font-family: Architects Daughter;
+
+}
+
+.footprint h2 {
+    font-size: 60px;
+    ;
+}
+
+.footprint {
+    margin-left: 200px;
+    padding-top: 180px;
+
+}
+
+.footprint p {
+    margin-top: 70px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.pen {
+    width: 200px;
+    height: 200px;
+
+    display: inline-flex;
+    border-radius: 50%;
+    gap: 50px;
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxmodel {
+    align-self: center;
+}
+
+.power h4 {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 30px;
+}
+
+.power h3 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.pen:hover {
+    background-color: orange;
+    transition: all .5s linear;
+}
+
+.footer {
+    width: 100%;
+    height: 1200px;
+    background: url(./img/footer-bg.jpg);
+
+}
+
+.web {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.sweet {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.sweet h3 {
+    font-size: 30px;
+    font-family: Architects Daughter;
+    color: rgb(15, 227, 227);
+}
+
+.sweet h2 {
+    font-size: 50px;
+}
+
+.place {
+    width: 550px;
+    height: 70px;
+    background-color: white;
+    margin-left: 680px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.in input {
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    font-size: 25px;
+}
+.in input::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+.place i {
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.place i:hover{
+    color: orange;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    margin-top: 220px;
+    border-bottom: 2px dashed #304636;
+}
+
+.foot {
+    width: 200px;
+    height: 300px;
+    color: white;
+
+}
+
+.foot h2 {
+    font-size: 30px;
+}
+
+.foot-adv p {
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(239, 232, 232);
+}
+
+.foot-adv i {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.foot-adv i:hover {
+    color: orange;
+}
+
+.foot-use a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.foot-use a:hover {
+    color: orange;
+}
+
+.foot-use,
+.foot-sup {
+    width: 200px;
+}
+
+.foot-use {
+    margin-left: 20px;
+}
+
+.foot-use li,
+.foot-sup li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.foot-use ul,
+.foot-sup ul {
+    margin-top: 30px;
+
+}
+
+.foot-sup a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-sup a:hover {
+    color: orange;
+}
+
+.foot-reach {
+    width: 390px;
+    word-spacing: 7px;
+
+}
+
+.foot-reach h4 {
+    margin-top: 30PX;
+    font-size: 22px;
+    font-weight: lighter;
+
+}
+
+.foot-reach i {
+    font-size: 25px;
+}
+
+.copy {
+    display: inline-flex;
+}
+
+.copy h2 {
+    color: white;
+    margin-top: 25px;
+    margin-left: 170px;
+    font-weight: lighter;
+}
+
+.copy h3 a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+
+
+}
+
+.copy h3 {
+    margin-top: 25px;
+    margin-left: 600px;
+}
+
+.copy h3 a:hover {
+    color: orange;
+    transition: all .6s;
+}
+
+.copy a{
+    text-decoration: none;
+    color: green;
+}

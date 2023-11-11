@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+img {
+
+    height: 80px;
+    width: 80px;
+}
+
+nav {
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(230, 217, 201);
+    height: 90px;
+}
+
+ul {
+    padding: 10px;
+    height: auto;
+    width: auto;
+    margin-left: 350px;
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    width: 100px;
+    display: block;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-family: Arial;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.logo {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+
+ul p {
+    font-size: 40px;
+    float: right;
+    padding: 15px 30px;
+    padding-right: 60px;
+}
+
+ul p :hover {
+    background-color: rgb(121, 83, 83);
+    color: rgb(199, 96, 96);
+}
+
+li :hover {
+    background-color: rgb(214, 181, 124);
+    color: red;
+}
+
+.burger h2 {
+    padding-top: 30px;
+    padding-left: 50px;
+    font-size: 50px;
+
+
+}
+
+.burger img {
+    height: 300px;
+    width: 500px;
+    padding-top: 2px;
+    float: right;
+    padding-right: 40px;
+}
+
+.burger p {
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+.box a {
+
+    width: 300px;
+    border: 2px solid red;
+    line-height: 50px;
+    padding: 4px;
+    margin: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+    border-style: inset;
+}
+
+
+
+.burger {
+    height: 300px;
+    width: 100%;
+    padding-top: 50px;
+    background-image: url(./img/burger\ bg.jpg);
+
+
+}
+
+.krish h2 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    text-decoration: underline;
+}
+
+.krish table {
+    height: 200px;
+    width: 300px;
+}
+
+.krish table td img {
+    height: 300px;
+    width: 400px;
+    
+}
+
+.krish table td {
+    text-align: center;
+    font-size: 22px;
+}
+.krish td a{
+    color:black;
+}
+.krish td a:hover{
+    color: red;
+}
+.krish {
+    width: 100%;
+    height: 720px;
+    background-color: antiquewhite;
+    padding-top: 50px;
+
+
+}
+
+.krish table td a {
+    text-decoration: none;
+}
+
+.offer img{
+    height: 200px;
+    width: 400px;
+    
+
+}
+.offer{
+    align-items: center;
+    background-image: url(./img/background\ 2.jpg);
+}
+
+
+.about img{
+height: 400px;
+width: 500px;
+border-radius: 1000px;
+padding-top: 8px;
+line-height: 40px;
+float: right;
+padding-right: 50px;
+}
+.about h3{
+    font-size: 23px;
+    padding-left: 50px;
+    padding-top: 80px;
+    line-height: 25px;
+}
+.about h2{
+    font-size:30px ;
+    padding-left: 50px;
+    text-decoration: underline;
+    line-height: 30px;
+}
+.about p{
+    font-size: 19px;
+    line-height: 25px;
+    padding-left:50px ;
+}
+.about{
+    height: 400px;
+    width: 100%;
+    line-height: 50px;
+    background-image: url(./img/burger\ bg.jpg);
+}
+
+
+
+
+
+.footer h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    color: white;
+}
+
+.footer p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.footer i {
+    font-size: 40px;
+    line-height: 100px;
+
+}
+
+.footer a:hover {
+    background-color: rgb(213, 19, 19);
+    color: red;
+
+}
+
+.footer {
+    background-color: #ad9f8c;
+    padding-top: 40px;
+}

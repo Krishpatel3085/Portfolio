@@ -1,0 +1,410 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    height: 650px;
+    box-sizing: border-box;
+    background-image: url(./img/shopimg/shop\ bg.jpg);
+    background-color: rgba(0, 0, 0, 0.37);
+    background-blend-mode: hue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav {
+    width: 100%;
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18;
+}
+
+.nav a:hover {
+    color: rgb(241, 166, 28);
+    transition: all 1s;
+}
+.nav .three .submenu{
+    width: 180px;
+    height: 190px;
+    background: white;
+    border: orange;
+    border-top: 3px solid orange;
+    position: absolute;
+    display: none;
+ 
+    
+}
+.nav .three .submenu li{
+    width: 180px;
+    height: 37px;
+    list-style: none;
+    border:1px solid orange ;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    
+    
+}
+.nav .three .submenu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    padding-left: 10px;
+   
+}
+.nav .three .submenu li a:hover{
+    color: orange;
+}
+.nav .three:hover .submenu{
+    display: block;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    height: 150px;
+    justify-content: start;
+    padding-right: 980px;
+    padding-left: 30px;
+}
+
+.icon {
+    font-size: 24px;
+    word-spacing: 10px;
+}
+.con{
+    margin-top: 50px;
+}
+.con h1{
+    padding-left: 850px;
+    font-size: 70px;
+}
+
+.con h2{
+    margin-top: 20px;
+    padding-left:880px ;
+    font-size: 40px;
+}
+.section-one{
+    width: 100%;
+    height:auto;
+    background: url(./img/section-one/about-compass.jpg),url(./img/section-one/about-map.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+.section-one h3{
+    font-family:  Architects Daughter;
+    color:  rgb(15, 227, 227);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.section-one h2{
+    font-size: 35px;
+    text-align: center;
+    font-family: Poppins;
+}
+.makes{
+    display: flex;
+    margin-left: 50px;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.makes .text{
+    width: 300px;
+    height: 500px;
+    margin-right: 100px;
+}
+.text h4{
+    font-size: 40px;
+}
+.text p{
+    margin-top: 50px;
+    font-size: 25px;
+}
+.makes img{
+    width: 400px;
+    height: 600px;
+}
+
+.mai{
+    width: 400px;
+    height: auto;
+    margin-top: 150px;
+}
+.mai h5{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.text button{
+    background: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    margin-top: 20px;
+}
+.text button a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    
+}
+.text button:hover{
+    background: orange;
+    color: white;
+}
+.text img{
+    margin-top: 30px;
+    margin-left: 330px;
+    height: 300px;
+    width:500px;
+}
+
+.content{
+    width: 100%;
+    height: 1000px;
+    margin-top: 100px;
+    background: url(./img/section-two/about-pine-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+.cover{
+    width: 650px;
+    height: 300px;
+}
+.cover h2{
+    font-size: 40px;
+    font-family: poppins;
+}
+.cover p{
+    margin-top: 30px;
+    font-size: 22px;
+}
+.sea-img{
+    margin-top:80px;
+    margin-left: 40px;
+}
+.know{
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.know img{
+    width: 650px;
+    height: 550px;
+}
+
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: 1200px;
+    background: url(./img/footer-bg.jpg);
+
+}
+
+.web {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.sweet {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.sweet h3 {
+    font-size: 30px;
+    font-family: Architects Daughter;
+    color: rgb(15, 227, 227);
+}
+
+.sweet h2 {
+    font-size: 50px;
+}
+
+.place {
+    width: 550px;
+    height: 70px;
+    background-color: white;
+    margin-left: 680px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.in input {
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    font-size: 25px;
+}
+.in input::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+.place i {
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.place i:hover{
+    color: orange;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    margin-top: 220px;
+    border-bottom: 2px dashed #304636;
+}
+
+.foot {
+    width: 200px;
+    height: 300px;
+    color: white;
+
+}
+
+.foot h2 {
+    font-size: 30px;
+}
+
+.foot-adv p {
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(239, 232, 232);
+}
+
+.foot-adv i {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.foot-adv i:hover {
+    color: orange;
+}
+
+.foot-use a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.foot-use a:hover {
+    color: orange;
+}
+
+.foot-use,
+.foot-sup {
+    width: 200px;
+}
+
+.foot-use {
+    margin-left: 20px;
+}
+
+.foot-use li,
+.foot-sup li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.foot-use ul,
+.foot-sup ul {
+    margin-top: 30px;
+
+}
+
+.foot-sup a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-sup a:hover {
+    color: orange;
+}
+
+.foot-reach {
+    width: 390px;
+    word-spacing: 7px;
+
+}
+
+.foot-reach h4 {
+    margin-top: 30PX;
+    font-size: 22px;
+    font-weight: lighter;
+
+}
+
+.foot-reach i {
+    font-size: 25px;
+}
+
+.copy {
+    display: inline-flex;
+}
+
+.copy h2 {
+    color: white;
+    margin-top: 25px;
+    margin-left: 170px;
+    font-weight: lighter;
+}
+
+.copy h3 a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+
+
+}
+
+.copy h3 {
+    margin-top: 25px;
+    margin-left: 600px;
+}
+
+.copy h3 a:hover {
+    color: orange;
+    transition: all .6s;
+}
